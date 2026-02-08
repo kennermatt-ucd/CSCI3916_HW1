@@ -1,0 +1,30 @@
+{
+  "name": "csci3916_hw1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit",
+    "start": "node -r dotenv/config server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennermatt-ucd/CSCI3916_HW1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennermatt-ucd/CSCI3916_HW1/issues"
+  },
+  "homepage": "https://github.com/kennermatt-ucd/CSCI3916_HW1#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "chai-http": "^4.4.0",
+    "mocha": "^11.7.5"
+  }
+}
